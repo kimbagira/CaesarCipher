@@ -16,3 +16,5 @@ you should clone to get my code
 ## BDD
 
 behaviour
+
+*go to the application, enter your text.
