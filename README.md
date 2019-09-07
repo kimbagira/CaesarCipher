@@ -31,3 +31,5 @@ output
 ## LINK OF MY REPOSITORY
 
 https://github.com/kimbagira/CaesarCipher
+
+## BUGS
