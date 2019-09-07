@@ -16,3 +16,4 @@ behaviour
 *go to the application, enter your text.
 
 input
+*any text
