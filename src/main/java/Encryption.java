@@ -98,7 +98,7 @@ public  class Encryption {
     }
 
     public static void main(String[] args) {
-        String text = "this is some message";
+        String text = "enter a message";
         String enter = Encryption(text, 5);
         System.out.println(enter);
         String decrypted = Decryption(enter, 5);
