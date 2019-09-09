@@ -1,3 +1,7 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public  class Encryption {
     public static String Encryption(String encryptText, int index) {
         if (index > 26) {
@@ -76,8 +80,10 @@ public  class Encryption {
         return enterText;
     }
 
-    public static void main(String[] args) {
-        String text = "enter a message";
+    public static void main(String[] args) throws IOException {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("enter a message");
+        String text = bufferedReader.readLine();
         String enter = Encryption(text, 5);
         System.out.println(enter);
         String decrypted = Decryption(enter, 5);
