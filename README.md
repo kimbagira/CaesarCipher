@@ -28,6 +28,11 @@ output
 *an encrypted text
 *a descripted text
 
+## 
+![app](src/App.png)
+![Encryption](src/Encryption.png)
+![Decryption](src/Decryption.png)
+![output](src/output.png)
 ## LINK OF MY REPOSITORY
 
 https://github.com/kimbagira/CaesarCipher
