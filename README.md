@@ -29,7 +29,10 @@ output
 *a descripted text
 
 ## screenshotb of codes
-
+[app](src/app.png)
+[Encryption](src/Encryption.png)
+[Decryption](src/Decryption.png)
+[output](src/output.png)
 
 
 
