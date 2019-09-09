@@ -28,8 +28,9 @@ output
 *an encrypted text
 *a descripted text
 
-## 
+## screenshot
 ![app](src/App.png)
+<img src="src/App.png">
 ![Encryption](src/Encryption.png)
 ![Decryption](src/Decryption.png)
 ![output](src/output.png)
