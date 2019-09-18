@@ -28,16 +28,9 @@ output
 *an encrypted text
 *a descripted text
 
-## screenshot
-![app](src/App.png)
-<img src="src/App.png">
-![Encryption](src/Encryption.png)
-<img src="src/Encryption.png">
-![Decryption](src/Decryption.png)
-<img src="src/Decryption.png">
-![output](src/output.png)
-<img src="src/output.png">
->>>>>>> 4f820199606f7a298d394b738e436bf4331005eb
+## SCREENSHOTS
+
+
 ## LINK OF MY REPOSITORY
 
 https://github.com/kimbagira/CaesarCipher
