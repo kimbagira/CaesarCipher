@@ -1,43 +1,32 @@
 package caesarCipher;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Encryption {
 
-    public static String Encryption(String encryptText, int index) {
-        if (index > 26) {
-            index = index % 26;
+    public static String Encryption(String encryptText, int word) {
+        if (word > 26) {
+            word = word % 26;
         }
-        else if (index < 0) {
-            index = (index % 26) + 26;
+        else if (word < 0) {
+            word = (word % 26) + 26;
         }
         String enterText = "";
         int length = encryptText.length();
         for (int a = 0; a < length; a++) {
-            char charact = encryptText.charAt(a);
-            if (Character.isLetter(charact)) {
-                if (Character.isLowerCase(charact)) {
-                    char c = (char) (charact + index);
+            char carat = encryptText.charAt(a);
+            if (Character.isLetter(carat)) {
+                if (Character.isLowerCase(carat)) {
+                    char c = (char) (carat + word);
                     if (c > 'z') {
-                        enterText += (char) (charact - (26 - index));
+                        enterText += (char) (carat - (26 - word));
                     }
                     else {
                         enterText += c;
                     }
                 }
-                else if (Character.isUpperCase(charact)) {
-                    char c = (char) (charact + index);
-                    if (c > 'z') {
-                        enterText += (char) (charact - (26 - index));
-                    }
-                    else {
-                        enterText += c;
-                    }
+                    char c = (char) (carat + word);
+                    if(c > 'z') {
+                        enterText += (char) (carat - (26 - word));
                 }
-            }
-            else {
-                enterText += charact;
             }
         }
         return enterText;
